@@ -48,3 +48,4 @@ WantedBy=multi-user.target
 | [Erika e Yago](https://github.com/erikayago) | [jogo](https://github.com/erikayago/-jogo-feria-ye) |
 | [Gustavo e Vitória]() | [jogo](https://github.com/tangram-game/adcieqipt20241) |
 | [Leandro e Nikolas](https://github.com/nlentertainment) | [jogo](https://github.com/nlentertainment/jogo) |
+| [Karoline e Louise](https://github.com/Karolzinha-e-Loulou) | [Duelo de feiticeiros](https://github.com/Karolzinha-e-Loulou/avadakedavra) |
