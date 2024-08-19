@@ -36,10 +36,10 @@ export default class finalFeliz extends Phaser.Scene {
             }
           })
             .then(function (response) {
-              globalThis.game.scene.getScene('finalFeliz').mensagem.setText('Parabéns! Você conseguiu! Seus tijolinhos foram creditados!')
+              console.log(response)
             })
             .catch(function (error) {
-              globalThis.game.scene.getScene('finalFeliz').mensagem.setText('Erro ao creditar tijolinhos:', error)
+              console.error(error)
             })
         }
       }
@@ -48,7 +48,7 @@ export default class finalFeliz extends Phaser.Scene {
     // Exibe o prompt de login
     globalThis.google.accounts.id.prompt((notification) => {
       if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
-        google.accounts.id.prompt()
+        globalThis.google.accounts.id.prompt()
       }
     })
   }
