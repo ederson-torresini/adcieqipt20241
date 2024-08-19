@@ -36,7 +36,8 @@ const precacheResources = [
   './assets/mapa/sombras.png',
   './assets/nuvem.png',
   './index.css',
-  './index.html'
+  './index.html',
+  './index.js'
 ]
 
 self.addEventListener('install', (event) => {
